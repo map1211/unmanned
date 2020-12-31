@@ -8,6 +8,7 @@ public class UnmannedApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(UnmannedApplication.class, args);
+		System.out.println("Boot Start");
 	}
 
 }
